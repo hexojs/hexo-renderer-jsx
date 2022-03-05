@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-jsx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSX Renderer for Hexo.",
   "main": "index.js",
   "repository": "https://github.com/renbaoshuo/hexo-renderer-jsx.git",
