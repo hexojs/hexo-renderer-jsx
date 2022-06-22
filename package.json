@@ -2,6 +2,9 @@
   "name": "hexo-renderer-jsx",
   "version": "1.0.1",
   "description": "JSX Renderer for Hexo.",
+  "scripts": {
+    "lint": "eslint ."
+  },
   "main": "index.js",
   "repository": "https://github.com/renbaoshuo/hexo-renderer-jsx.git",
   "author": "Baoshuo Ren <i@baoshuo.ren>",
@@ -13,5 +16,9 @@
     "@babel/register": "^7.17.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-hexo": "^5.0.0"
   }
 }
