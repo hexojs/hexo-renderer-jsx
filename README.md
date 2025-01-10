@@ -7,9 +7,9 @@
 ## Install
 
 ```bash
-npm install hexo-renderer-jsx --save
+npm install hexo-renderer-jsx react react-dom --save
 # or use yarn:
-#   yarn add hexo-renderer-jsx
+#   yarn add hexo-renderer-jsx react react-dom
 ```
 
 ## Author
