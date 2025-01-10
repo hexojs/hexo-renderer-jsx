@@ -1,12 +1,15 @@
 {
   "name": "hexo-renderer-jsx",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "JSX Renderer for Hexo.",
   "scripts": {
     "lint": "eslint ."
   },
   "main": "index.js",
-  "repository": "https://github.com/renbaoshuo/hexo-renderer-jsx.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renbaoshuo/hexo-renderer-jsx.git"
+  },
   "author": "Baoshuo Ren <i@baoshuo.ren>",
   "license": "MIT",
   "dependencies": {
