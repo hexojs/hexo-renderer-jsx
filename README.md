@@ -12,6 +12,23 @@ npm install hexo-renderer-jsx react react-dom --save
 #   yarn add hexo-renderer-jsx react react-dom
 ```
 
+## Access Hexo locals
+
+This renderer exposes an `useLocals` hook for theme authors to access Hexo's locals and avoid prop-drilling.
+
+```jsx
+const { useLocals } = require('hexo-renderer-jsx/use-locals');
+
+export default function Index(props) {
+  const {config, url_for} = useLocals();
+  return (
+    <a href={url_for('')} >
+      {config.title}
+    </a>
+  );
+}
+```
+
 ## Author
 
 **hexo-renderer-jsx** © [Baoshuo](https://github.com/renbaoshuo), Released under the [MIT](./LICENSE) License.<br>
