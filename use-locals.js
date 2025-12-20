@@ -1,7 +1,7 @@
 'use strict';
 
 const React = require('react');
-const HexoContext = require('./lib/HexoContext');
+const {HexoContext} = require('./lib/HexoContext');
 
 module.exports.useLocals = () => {
   const locals = React.useContext(HexoContext)
