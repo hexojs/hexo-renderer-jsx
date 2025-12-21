@@ -20,7 +20,7 @@ This renderer exposes an `useLocals` hook for theme authors to access Hexo's loc
 const { useLocals } = require('hexo-renderer-jsx/use-locals');
 
 export default function Index(props) {
-  const {config, url_for} = useLocals();
+  const { config, url_for } = useLocals();
   return (
     <a href={url_for('')} >
       {config.title}
